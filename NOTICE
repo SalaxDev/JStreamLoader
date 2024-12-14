@@ -1,0 +1,7 @@
+This project makes use of the following libraries:
+
+logback-classic version 1.4.12
+logback-core version 1.4.14
+slf4j-api version 1.7.36
+
+These libraries are used under their respective licenses and are essential for the functionality of this project.
