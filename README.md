@@ -17,8 +17,15 @@ To use JStreamLoader in your Java project, you can either download the `JStreamL
 Add this dependency to your `pom.xml`:
 
 ```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+Step 2. Add the dependency
 <dependency>
-    <groupId>com.salaxdev</groupId>
+    <groupId>com.github.SalaxDev</groupId>
     <artifactId>JStreamLoader</artifactId>
     <version>1.0-SNAPSHOT</version>
 </dependency>
