@@ -14,7 +14,7 @@ JStreamLoader is a utility library for Java that simplifies the process of loadi
 To use JStreamLoader in your Java project, you can either download the `JStreamLoader.jar` file and include it in your project’s classpath, or include it via your preferred dependency management system like Maven or Gradle.
 
 ### Maven
-Add this dependency to your `pom.xml`:
+Step 1. Add the JitPack repository to your `pom.xml`:
 
 ```xml
 <repositories>
