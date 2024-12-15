@@ -20,5 +20,5 @@ Add this dependency to your `pom.xml`:
 <dependency>
     <groupId>com.salaxdev</groupId>
     <artifactId>JStreamLoader</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
 </dependency>
