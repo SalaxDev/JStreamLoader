@@ -23,7 +23,9 @@ Add this dependency to your `pom.xml`:
         <url>https://jitpack.io</url>
     </repository>
 </repositories>
+```
 Step 2. Add the dependency
+```xml
 <dependency>
     <groupId>com.github.SalaxDev</groupId>
     <artifactId>JStreamLoader</artifactId>
