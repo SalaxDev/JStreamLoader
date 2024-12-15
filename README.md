@@ -1,8 +1,6 @@
 # JStreamLoader 
 **JStreamLoader** is a lightweight, efficient Java library for loading files and resources directly from streams. Created by **SalaxDev**, it offers fast and easy resource management for Java projects.
 
-JStreamLoader is a utility library for Java that simplifies the process of loading various resources, such as images, text files, and audio files, from different locations in your application. It also includes developer options for debugging and enhanced logging.
-
 ## Features
 
 - **Load Images:** Load images from various locations including the program's directory or user home directory. If loading fails, a default error icon is returned.
