@@ -1,3 +1,5 @@
+![GitHub release](https://img.shields.io/github/v/release/SalaxDev/JStreamLoader?style=flat-square)
+![License](https://img.shields.io/github/license/SalaxDev/JStreamLoader?style=flat-square)
 # JStreamLoader 
 **JStreamLoader** is a lightweight, efficient Java library for loading files and resources directly from streams. Created by **SalaxDev**, it offers fast and easy resource management for Java projects.
 
@@ -31,5 +33,4 @@ Step 2. Add the dependency
     <version>1.0.0-SNAPSHOT</version>
 </dependency>
 ```
-![GitHub release](https://img.shields.io/github/v/release/SalaxDev/JStreamLoader?style=flat-square)
-![License](https://img.shields.io/github/license/SalaxDev/JStreamLoader?style=flat-square)
+
