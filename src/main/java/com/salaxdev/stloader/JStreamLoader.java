@@ -124,7 +124,7 @@ public class JStreamLoader {
      * @param name The name of the file.
      * @param noticeCreation If true, logs a message when the directory is created.
      */
-    public void programLocationSaveFile(String location, String content, String name, boolean noticeCreation) {
+    public void saveFileProgramLocation(String location, String content, String name, boolean noticeCreation) {
         saveCreate(location, content, name, noticeCreation, "user.dir");
     }
 
@@ -136,7 +136,7 @@ public class JStreamLoader {
      * @return The content of the saved file as a String.
      * @throws ResourceNotFoundException If the file cannot be found or loaded.
      */
-    public String programLocationLoadSaveFile(String name, String location) {
+    public String loadSaveFileProgramLocation(String name, String location) {
         return loadSave(name, location, "user.dir");
     }
     /**
@@ -149,7 +149,7 @@ public class JStreamLoader {
      *
      * @throws ResourceNotFoundException if the file could not be saved and developerOption is disabled.
      */
-    public void userHomeLocationSaveFile(String location, String content, String name, boolean noticeCreation) {
+    public void saveFileUserHomeLocation(String location, String content, String name, boolean noticeCreation) {
         saveCreate(location, content, name, noticeCreation, "user.home");
     }
     /**
@@ -163,7 +163,7 @@ public class JStreamLoader {
      * @throws ResourceNotFoundException if the file does not exist or an error occurs during reading,
      *         unless developerOption is enabled, in which case it returns {@code null}.
      */
-    public String userHomeLocationLoadSaveFile(String name, String location) {
+    public String loadSaveFileUserHomeLocation(String name, String location) {
         return loadSave(name, location, "user.home");
     }
 
@@ -172,7 +172,7 @@ public class JStreamLoader {
      *
      * @param location The location (path) of the .wav audio file to load and play.
      */
-    public void loadStreamWawMusic(String location) {
+    public void loadWawMusicStream(String location) {
         musicWavLoader(location, null, true);
     }
     /**
@@ -180,7 +180,7 @@ public class JStreamLoader {
      *
      * @param location The location (path) of the .wav audio file to load and play.
      */
-    public void loadProgramLocationWawMusic(String location) {
+    public void loadWawMusicProgramLocation(String location) {
         musicWavLoader(location, "user.dir", false);
     }
     /**
@@ -188,7 +188,7 @@ public class JStreamLoader {
      *
      * @param location The location (path) of the .wav audio file to load and play.
      */
-    public void loadUserHomeLocationWawMusic(String location) {
+    public void loadWawMusicUserHome(String location) {
         musicWavLoader(location, "user.home", false);
     }
 
