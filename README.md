@@ -30,6 +30,6 @@ Step 2. Add the dependency
     <artifactId>JStreamLoader</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 </dependency>
-
+```
 ![GitHub release](https://img.shields.io/github/v/release/SalaxDev/JStreamLoader?style=flat-square)
 ![License](https://img.shields.io/github/license/SalaxDev/JStreamLoader?style=flat-square)
