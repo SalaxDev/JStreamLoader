@@ -1,4 +1,4 @@
-![License](https://img.shields.io/github/license/SalaxDev/JStreamLoader?style=flat-square)(https)
+[![License](https://img.shields.io/github/license/SalaxDev/JStreamLoader?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
 # JStreamLoader 
 **JStreamLoader** is a lightweight, efficient Java library for loading files and resources directly from streams. Created by **SalaxDev**, it offers fast and easy resource management for Java projects.
 
