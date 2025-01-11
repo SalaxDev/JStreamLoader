@@ -29,7 +29,7 @@ Step 2. Add the dependency
 <dependency>
     <groupId>com.github.SalaxDev</groupId>
     <artifactId>JStreamLoader</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 
